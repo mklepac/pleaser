@@ -1,0 +1,28 @@
+{
+  "name": "pleaser",
+  "version": "1.0.0",
+  "description": "Wraps request verbs in Promises",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm test",
+    "pretest": "npm run lint",
+    "lint": "jshint ./**.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mklepac/pleaser.git"
+  },
+  "author": "mklepac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mklepac/pleaser/issues"
+  },
+  "homepage": "https://github.com/mklepac/pleaser",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
