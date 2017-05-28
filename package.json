@@ -1,13 +1,12 @@
 {
   "name": "pleaser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps request verbs in Promises",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm test",
     "pretest": "npm run lint",
-    "lint": "jshint ./**.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint ./**.js"
   },
   "repository": {
     "type": "git",
